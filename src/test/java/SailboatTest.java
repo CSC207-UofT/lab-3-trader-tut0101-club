@@ -27,4 +27,5 @@ class SailboatTest {
     @Test(timeout = 50)
     void getMaxSpeed() {
         assertEquals(15, this.s.getMaxSpeed());
+    }
 }
