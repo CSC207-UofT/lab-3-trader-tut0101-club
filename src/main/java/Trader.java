@@ -1,4 +1,4 @@
-/* This file contains a single class, Trader, which has been implemented
+    /* This file contains a single class, Trader, which has been implemented
  * for you. Read through the Trader code and the documentation to understand
  * what it does.
  *
@@ -96,8 +96,10 @@ public class Trader {
         List<Tradable> all_items = Arrays.asList(
                 new Horse(),
                 new Horse(),
-                new Horse()
-                // TODO: Add Tradable objects here!
+                new Horse(),
+                new HondCivic2007(),
+                new HondCivic2007(),
+                new HondCivic2007()
         );
 
         /* Below, we've created two Traders. Their money, inventory, and
