@@ -25,4 +25,8 @@ public class Bike implements Drivable, Tradable{
         return 100;
     }
 
+    @Override
+    public String toString() {
+        return "This bike travels at Max Speed: " + this.maxSpeed;
+    }
 }
