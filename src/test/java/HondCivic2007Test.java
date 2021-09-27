@@ -30,7 +30,7 @@ public class HondCivic2007Test {
 
     @Test(timeout = 50)
     public void TestGetPrice() {
-        assertEquals(10000, h.getPrice());
+        assertEquals(99, h.getPrice());
     }
 
 }
