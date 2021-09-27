@@ -100,6 +100,8 @@ public class Trader {
                 new HondCivic2007(),
                 new HondCivic2007(),
                 new HondCivic2007()
+                new Bike(),
+                new Bike()
         );
 
         /* Below, we've created two Traders. Their money, inventory, and
