@@ -1,31 +1,29 @@
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.*;
+import static org.junit.Assert.*;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-class SailboatTest {
+public class SailboatTest {
 
     Sailboat s;
 
-    @BeforeEach
-    void setUp() {
+    @Before
+    public void setUp() {
         this.s = new Sailboat();
     }
 
     @Test(timeout = 50)
-    void upgradeSpeed() {
+    public void upgradeSpeed() {
         this.s.upgradeSpeed();
         assertEquals(16, this.s.getMaxSpeed());
     }
 
     @Test(timeout = 50)
-    void downgradeSpeed() {
+    public void downgradeSpeed() {
         this.s.downgradeSpeed();
         assertEquals(14, this.s.getMaxSpeed());
     }
 
     @Test(timeout = 50)
-    void getMaxSpeed() {
+    public void getMaxSpeed() {
         assertEquals(15, this.s.getMaxSpeed());
     }
 }
