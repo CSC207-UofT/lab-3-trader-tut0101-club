@@ -1,7 +1,7 @@
-public class Ostrich implements Tradable, Domesticatable, Drivable{
+public class Ostrich implements Tradable, Domesticatable, Drivable {
     private int maxSpeed;
 
-    public Ostrich(){ this.maxSpeed = 1; }
+    public Ostrich() { this.maxSpeed = 1; }
 
     @Override
     public String sound() {
@@ -29,7 +29,7 @@ public class Ostrich implements Tradable, Domesticatable, Drivable{
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         String id = super.toString();
         return id + " (Max speed: " + this.maxSpeed +")";
     }
