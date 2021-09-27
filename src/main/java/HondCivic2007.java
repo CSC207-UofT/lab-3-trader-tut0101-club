@@ -25,7 +25,7 @@ public class HondCivic2007 implements Drivable, Tradable {
 
     @Override
     public int getPrice() {
-        return 10000;
+        return 99;
     }
 
     @Override
